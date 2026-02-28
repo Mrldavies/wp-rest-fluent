@@ -1,0 +1,42 @@
+{
+  "name": "mrldavies/wp-rest-fluent",
+  "description": "A fluent routing layer for the WordPress REST API with middleware, groups and response formatting.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "scripts": {
+    "test": "pest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mrldavies\\WpRestFluent\\": "src/"
+    }
+  },
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "keywords": [
+    "wordpress",
+    "wp-rest",
+    "rest-api",
+    "router",
+    "middleware",
+    "fluent"
+  ],
+  "authors": [
+    {
+      "name": "Matthew Davies",
+      "homepage": "https://github.com/Mrldavies"
+    }
+  ],
+  "require-dev": {
+    "pestphp/pest": "^4.4"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
